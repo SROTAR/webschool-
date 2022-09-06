@@ -1,0 +1,271 @@
+/*импортировал шрифты*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{/*обнуление отступов браузера*/
+    margin: 0;
+    padding: 0;
+}
+
+body{/*фон*/
+    background-image: url(Program-code-colorful-letters-screen_2880x1800\ 1.png);
+    background-size: cover;
+}
+
+.upImg{/*верхнее изображение*/
+    width: 100%;
+
+    position: absolute;
+}
+
+.main_txt{/*Html and CSS*/
+    position: absolute;
+    width: 385px;
+    height: 77px;
+    left: 60px;
+    top: 115px;
+    font-family: 'Inter';
+    font-style: bold;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    color: white;
+}
+
+.main_text{ /*Html and CSS*/
+    position: absolute;
+    width: 300px;
+    height: 56px;
+    left: 64px;
+    top: 207px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.405em;
+    color: white;
+}
+
+.up_button{/*кнопка*/
+    height: 34px;
+    width: 230px;
+    position: absolute;
+    left: 57px;
+    top: 403px;
+    background-color: rgba(40, 97, 244, 0.49);  
+    border-radius: 17px;
+}
+
+.button_txt{/*текст кнопки*/
+    position: absolute;
+    padding: 8px;
+    margin-left: 25px;
+    color: white;
+    letter-spacing: 0.115em;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info{/*блок с информацией*/
+    width: 80%;
+    height: 1400px;
+    background-color: antiquewhite;
+    margin-left: 140px;
+}
+
+.info_txt_main{/*главный текст*/
+    position: absolute;
+    width: 265px;
+    height: 35px;
+    left: 287px;
+    top: 654px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 146.28%;
+}
+
+.info_txt_down{/*текст снизу главного*/
+    position: absolute;
+    width: 532px;
+    height: 87px;
+    left: 287px;
+    top: 717px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160.28%;
+    letter-spacing: 0.12em;
+}
+
+.info_img{/*картинка справа*/
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    left: 988px;
+    top: 634px;
+}
+
+.info_img_l{/*картинка слева*/
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    left: 287px;
+    top: 925px;
+}
+
+.info_txt_main_r{/*главный текст*/
+    position: absolute;
+    width: 428px;
+    height: 35px;
+    left: 621px;
+    top: 925px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 146.28%;
+}
+
+.info_txt_down_r{/*текст снизу главного*/
+    position: absolute;
+    width: 532px;
+    height: 87px;
+    left: 621px;
+    top: 988px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160.28%;
+    letter-spacing: 0.12em;
+}
+
+.info_txt_down_l{/*текст снизу главного*/
+    position: absolute;
+    width: 532px;
+    height: 58px;
+    left: 287px;
+    top: 1259px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160.28%;
+    letter-spacing: 0.12em;
+}
+
+.info_txt_main_l{/*главный текст*/
+    position: absolute;
+    width: 196px;
+    height: 35px;
+    left: 287px;
+    top: 1196px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 146.28%;
+}
+
+.info_img_r{/*картинка справа*/
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    left: 988px;
+    top: 1181px;
+}
+
+@media screen and (max-width:800px){
+    .upImg{/*верхнее изображение*/
+        width: 100%;
+    
+        position: absolute;
+    }
+    .info_txt_main{/*главный текст*/
+        position: absolute;
+        width: 265px;
+        height: 35px;
+        left: 287px;
+        top: 654px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 125px;
+        line-height: 146.28%;
+    }
+
+}
+@media screen and (min-width:1200px){
+    .img{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        padding: auto;
+        width: 100%;   
+    }       
+    .info{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        padding: auto;
+    }
+}
+@media screen and (max-width: 800px){
+    .img{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        padding: auto;
+        width: 100%;   
+    }  
+    .info{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        padding: auto;
+    }
+    .main_txt{/*Html and CSS*/
+        position: absolute;
+        width: 385px;
+        top:17px;
+        left:15px;
+        font-family: 'Inter';
+        font-style: bold;
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 77px;
+        color: white;
+    }
+    
+    .main_text{ /*Html and CSS*/
+        position: absolute;
+        width: 300px;
+        height: 56px;
+        left: 15px;
+        top: 80px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10.5px;
+        line-height: 20px;
+        letter-spacing: 0.300em;
+        color: white;
+    }
+    .vk{
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        
+    }
+}
